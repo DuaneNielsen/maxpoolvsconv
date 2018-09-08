@@ -16,14 +16,15 @@ Train/Test split is 90%/10%.
 
 MSE Loss is used.  Optimizer is Adam with lr=0.001.
 
-** Results after 20 epochs of training. **
+**Test Results after 20 epochs of training**
 
+MSE loss on test set
 ![Alt text](images/maxvsconv.JPG?raw=true "Title")
 
-** Test images **
+**Test images**
 
 ![Alt text](images/original.JPG?raw=true "Title")
 
-** Reconstructed images **
+**Reconstructed images**
 
 ![Alt text](images/maxvconvimage.JPG?raw=true "Title")
