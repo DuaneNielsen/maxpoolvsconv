@@ -24,7 +24,7 @@ MSE loss on test set
 
 **Comparison**
 
-![Alt text](images/comparison.JPG?raw=true "Comparison")
+![Alt text](images/comparison.jpg?raw=true "Comparison")
 
 Left: test image, Center: Max Pooling, Right: Convolutional pooling
 
