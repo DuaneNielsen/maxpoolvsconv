@@ -1,4 +1,4 @@
-#MaxPooling vs Convolutions
+# MaxPooling vs Convolutions
 
 An experiment to compare the performance of 2x2 max-pooling vs using a 2x2 convolution with a stride of 2.
 
@@ -16,14 +16,14 @@ Train/Test split is 90%/10%.
 
 MSE Loss is used.  Optimizer is Adam with lr=0.001.
 
-Results after 20 epochs of training.
+** Results after 20 epochs of training. **
 
 ![Alt text](images/maxvsconv.JPG?raw=true "Title")
 
-Test images
+** Test images **
 
 ![Alt text](images/original.JPG?raw=true "Title")
 
-Reconstructed images
+** Reconstructed images **
 
 ![Alt text](images/maxvconvimage.JPG?raw=true "Title")
