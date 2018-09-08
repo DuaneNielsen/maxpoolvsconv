@@ -1,5 +1,7 @@
 # MaxPooling vs Convolutions
 
+Code for my a ![article on meduim](https://medium.com/@duanenielsen/deep-learning-cage-match-max-pooling-vs-convolutions-e42581387cb9)
+
 An experiment to compare the performance of 2x2 max-pooling vs using a 2x2 convolution with a stride of 2.
 
 Tested by auto-encoding images generated from openai/gym
