@@ -215,6 +215,18 @@ class ModelDb:
             except ElasticsearchException as es1:
                 print(es1)
 
+    """ returns the model with the best loss
+    """
+    def best_loss_for_model_class(self, modelclassname):
+        import sys
+        best_loss = sys.float_info.max
+        checkpoint_file = None
+        for metad in self.metadatas:
+            if metad['classname'] == modelclassname:
+                if metad['ave_test_loss'] < best_loss:
+                    checkpoint_file = metad['filename']
+
+        return checkpoint_file
 
 
 

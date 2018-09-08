@@ -21,4 +21,3 @@ if __name__ == '__main__':
 
     easy = OneShotEasyRunner()
     easy.run(maxpool, dataset, batch_size=20, epochs=20)
-

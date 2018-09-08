@@ -20,7 +20,13 @@ MSE Loss is used.  Optimizer is Adam with lr=0.001.
 **Test Results after 20 epochs of training**
 
 MSE loss on test set
-![Alt text](images/maxvsconv.JPG?raw=true "Title")
+![Alt text](images/maxvsconv.JPG?raw=true "Runs")
+
+**Comparison**
+
+![Alt text](images/comparison.JPG?raw=true "Comparison")
+
+Left: test image, Center: Max Pooling, Right: Convolutional pooling
 
 **Test images**
 
