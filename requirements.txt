@@ -1,0 +1,14 @@
+gym
+torch
+torchvision
+numpy
+tensorboardX
+Box2D-kengz
+matplotlib
+pygame
+opencv-python
+tqdm
+imageio
+elasticsearch
+scikit-learn
+scipy
